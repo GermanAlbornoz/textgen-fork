@@ -3,10 +3,10 @@ import re
 from random import shuffle
 
 import numpy as np
-from tensorflow.keras import backend as K
-from tensorflow.keras.callbacks import Callback
-from tensorflow.keras.models import Model
-from tensorflow.keras.preprocessing import sequence
+from keras import backend as K
+from keras.callbacks import Callback
+from keras.models import Model
+from keras.preprocessing import sequence
 from tqdm import trange
 
 
