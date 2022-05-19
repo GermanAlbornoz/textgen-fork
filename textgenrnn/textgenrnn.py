@@ -10,11 +10,10 @@ from sklearn.manifold import TSNE
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import LabelBinarizer
 from tensorflow import config as config
-from tensorflow.compat.v1.keras.backend import set_session
-from tensorflow.keras.callbacks import LearningRateScheduler
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.preprocessing.text import Tokenizer, text_to_word_sequence
+from keras.callbacks import LearningRateScheduler
+from keras.models import Model
+from keras.optimizers import Adam
+from keras.preprocessing.text import Tokenizer, text_to_word_sequence
 from keras.utils import multi_gpu_utils
 from keras.backend import set_session
 
