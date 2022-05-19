@@ -1,6 +1,6 @@
 import numpy as np
-from tensorflow.keras.preprocessing import sequence
-from tensorflow.keras.preprocessing.text import Tokenizer
+from keras.preprocessing import sequence
+from keras.preprocessing.text import Tokenizer
 
 from .utils import textgenrnn_encode_cat
 
