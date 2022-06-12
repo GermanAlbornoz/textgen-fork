@@ -14,7 +14,7 @@ from keras.callbacks import LearningRateScheduler
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from keras.preprocessing.text import Tokenizer, text_to_word_sequence
-from keras.utils import multi_gpu_utils
+#from keras.utils import multi_gpu_utils
 from keras.backend import set_session
 
 from .model import textgenrnn_model
