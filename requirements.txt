@@ -1,4 +1,4 @@
 h5py
 scikit-learn
 tqdm
-tensorflow-directml
+tensorflow==1.15
