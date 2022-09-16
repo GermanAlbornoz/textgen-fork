@@ -3,7 +3,7 @@ from keras.preprocessing import sequence
 from keras.preprocessing.text import Tokenizer
 
 from .utils import textgenrnn_encode_cat
-from keras.utils import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 
 
 def generate_sequences_from_texts(texts, indices_list,
