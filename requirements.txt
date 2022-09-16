@@ -1,4 +1,4 @@
 h5py
 scikit-learn
 tqdm
-tensorflow==2.1
+tensorflow==2.6
